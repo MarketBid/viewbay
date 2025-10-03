@@ -1,6 +1,7 @@
 import { AuthTokens, ApiResponse } from '../types';
 
-const API_BASE_URL = 'http://0.0.0.0:8000';
+// const API_BASE_URL = 'http://0.0.0.0:8000';
+const API_BASE_URL = "https://3b41224c8684.ngrok-free.app"
 
 class ApiClient {
   private baseURL: string;
